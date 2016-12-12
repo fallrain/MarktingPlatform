@@ -366,8 +366,11 @@
   background: #e2202d;
   color: #fff; }
 
-.mp-cm-grid .mp-cm-grid-opt {
+.mp-cm-grid-opt {
   color: #37b0f7; }
+
+.mp-cm-grid-error {
+  color: #e2202d; }
 
 /*页码栏End*/
 /*表单*/
