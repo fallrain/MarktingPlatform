@@ -128,15 +128,22 @@
   cursor: pointer;
 }
 
+.mp-ckicon-par {
+  position: relative;
+  display: inline-block;
+  height: 16px;
+}
+
 .mp-ck-par .iconfont {
+  height: 16px;
   color: $mp-bd-color;
   position: relative;
   top: 2px;
+  font-weight: normal;
 }
 
 .mp-ck-par .mp-ck-checkedicon {
   position: absolute;
-  top: -10px;
   left: 0;
 }
 
@@ -163,6 +170,12 @@
   cursor: pointer;
 }
 
+.mp-rdicon-par {
+  position: relative;
+  display: inline-block;
+  height: 16px;
+}
+
 .mp-rdgp-rd {
   vertical-align: middle;
   margin-right: 6px;
@@ -171,14 +184,17 @@
   left: 1px;
   opacity: 0;
 }
+
 .mp-rd-par .iconfont {
+  height: 16px;
   color: $mp-bd-color;
   position: relative;
   top: 2px;
+  font-weight: normal;
 }
+
 .mp-rd-par .mp-ck-checkedicon {
   position: absolute;
-  top: -10px;
   left: 0;
 }
 
