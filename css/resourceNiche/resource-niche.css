@@ -1,0 +1,182 @@
+@charset "UTF-8";
+.mp-resn-count-ttl {
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background: #f6f6f6;
+  padding-left: 17px;
+  font-size: 14px;
+  color: #333; }
+
+.mp-resn-tm-sch {
+  text-align: center; }
+
+.mp-resn-tm-sch-pd {
+  padding-top: 14px;
+  padding-bottom: 14px; }
+
+.mp-resn-tm-sch-btn {
+  width: 60px;
+  height: 38px;
+  line-height: 38px;
+  background: #e2202d;
+  color: #fff; }
+
+.mp-resn-tm-sch-ipt {
+  width: 200px;
+  height: 38px;
+  border: 1px solid #e5e5e5;
+  margin-right: 12px; }
+
+.mp-resn-tm-sch-inf {
+  color: #333;
+  margin-right: 26px; }
+
+.mp-resn-incomNum {
+  width: 100%;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  text-align: center; }
+
+.mp-resn-incomNum:after {
+  content: '';
+  display: block;
+  clear: both; }
+
+.mp-resn-incomNum-pd {
+  padding-top: 16px;
+  padding-bottom: 16px; }
+
+.mp-resn-incomNum-l,
+.mp-resn-incomNum-r {
+  float: left;
+  width: 50%;
+  font-size: 48px; }
+
+.mp-resn-incomNum-l {
+  border-right: 1px solid #e5e5e5;
+  color: #37b0f7; }
+
+.mp-resn-incomNum-r {
+  color: #e2202d; }
+
+.mp-resn-incomNum-l-inf {
+  font-size: 14px;
+  color: #999; }
+
+.mp-resn-chosRes-btn {
+  width: 116px;
+  height: 38px; }
+
+.mp-resn-sch-gp {
+  width: 260px;
+  height: 38px;
+  line-height: 38px;
+  border: 1px solid #e5e5e5;
+  font-size: 13px; }
+
+.mp-resn-sch-gp-ipt {
+  border: none;
+  height: 100%;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px; }
+
+.mp-resn-sch-icon {
+  color: #c8cccd;
+  float: right;
+  margin-right: 10px; }
+
+/*编辑媒体平台*/
+.mp-resn-medp-ipt {
+  width: 360px;
+  height: 38px;
+  border: 1px solid #e5e5e5; }
+
+.mp-resn-medp-form .mp-form-name {
+  width: 110px; }
+
+.mp-resn-medp-form-pd {
+  padding-top: 30px; }
+
+.mp-resn-medp-ta {
+  width: 700px;
+  height: 100px; }
+
+/*编辑媒体平台End*/
+/*新增资源位*/
+.mp-resn-editResn-form .mp-form-name {
+  width: 164px;
+  padding-right: 34px; }
+
+.mp-form-upArea {
+  width: 78px;
+  height: 78px;
+  line-height: 78px;
+  font-size: 14px;
+  background: #f6f6f6;
+  color: #c8cccd;
+  text-align: center;
+  cursor: pointer; }
+
+.mp-resn-editResn-hovinf {
+  position: absolute;
+  color: #c6cacb;
+  font-size: 16px;
+  line-height: 1;
+  margin-top: 2px;
+  margin-left: 3px;
+  cursor: pointer; }
+
+.mp-resn-editResn-hovinf-tip .arrow {
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  bottom: -6px;
+  right: 2px;
+  border-top-color: #e5e5e5;
+  /* border-top-color: rgba(0,0,0,.25); */
+  border-width: 6px;
+  border-bottom-width: 0; }
+
+.mp-resn-editResn-hovinf-tip .arrow:after {
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  bottom: 1px;
+  margin-left: -6px;
+  content: '';
+  border-width: 6px;
+  border-top-color: #f6f6f6;
+  border-bottom-width: 0; }
+
+.mp-resn-editResn-hovinf-tip {
+  position: absolute;
+  bottom: 24px;
+  right: 0;
+  width: 188px;
+  font-size: 12px;
+  text-align: left;
+  min-height: 64px;
+  background: #f6f6f6;
+  border: 1px solid #e5e5e5;
+  color: #1b2129;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 14px;
+  padding-bottom: 14px; }
+
+/*新增资源位End*/
+/*资源位浏览*/
+.mp-resnList-sch {
+  border: 1px solid #e5e5e5; }
+
+/*资源位浏览*/
+
+/*# sourceMappingURL=resource-niche.css.map */

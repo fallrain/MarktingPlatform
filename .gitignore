@@ -1,0 +1,43 @@
+.DS_Store
+.idea
+.sass-cache
+.sass-cache/
+
+*/resource/
+*/*.site
+*/build/
+*/preview/
+*/*.zip
+*.zip
+*.sh
+*/**/*.psd
+./dist/
+./dist/**
+*/dist/
+dist/
+
+/.idea
+*.class
+*.orig
+**/*.orig
+/target/
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+#idea files
+.idea/
+.idea
+*.idea
+*.iml
+overlays/
+jxl.log
+

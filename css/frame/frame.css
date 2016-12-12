@@ -1,0 +1,400 @@
+@charset "UTF-8";
+.mp-main {
+  position: absolute;
+  width: 100%;
+  min-width: 1000px;
+  height: 100%;
+  overflow-x: hidden; }
+
+.mp-head-main {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  padding-left: 100px;
+  padding-right: 100px;
+  background: #fff; }
+
+.mp-head-logo {
+  display: inline-block;
+  line-height: 80px; }
+
+.mp-head-cnt {
+  float: right;
+  line-height: 80px; }
+
+.mp-head-cls {
+  font-size: 14px;
+  font-weight: 600;
+  margin-right: 40px; }
+
+.mp-head-login-cnt {
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #de143a;
+  text-align: center; }
+
+.mp-cnt-main {
+  position: relative;
+  top: 80px;
+  bottom: 60px;
+  height: 100%;
+  min-height: 669px;
+  background: url("../../img/frame/mg-bg.jpg") repeat;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 34px;
+  padding-bottom: 21px; }
+
+.mp-cnt {
+  position: relative; }
+
+.mp-foot {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background: #fff;
+  padding-left: 100px;
+  padding-right: 100px;
+  color: #a1a1a1; }
+
+/*完善账户信息*/
+.mp-updAccount-prg-main {
+  width: 926px;
+  height: 460px;
+  background: #fff;
+  margin-left: auto;
+  margin-right: auto; }
+
+.mp-updAccount-prg-hd {
+  padding-top: 22px;
+  padding-left: 40px;
+  padding-right: 27px;
+  font-size: 24px;
+  color: #999; }
+
+.mp-updAccount-prompt-cnt {
+  width: 365px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  text-align: center; }
+
+.mp-updAccount-prg-btn,
+.mp-updAccount-nxt-btn {
+  width: 365px;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 13px; }
+
+.mp-updAccount-prg-btn1,
+.mp-updAccount-nxt-btn:hover {
+  background: #de143a; }
+
+.mp-updAccount-prg-btn1:hover {
+  background: #cc1437; }
+
+.mp-updAccount-prg-btn2 {
+  color: #de143a;
+  background: #fff;
+  border: 1px solid #de143a; }
+
+.mp-updAccount-prg-btn2:hover {
+  border-color: #cc1437;
+  color: #cc1437; }
+
+.mp-updAccount-prg-btn-mg {
+  margin-bottom: 10px; }
+
+.mp-updAccount-prompt-user {
+  margin-top: 15px;
+  margin-bottom: 40px; }
+
+.mp-updAccount-prg-ft {
+  margin-top: 20px;
+  margin-bottom: 10px; }
+
+.mp-updAccount-prg-itm {
+  width: 246px;
+  text-align: center;
+  float: left; }
+
+.mp-updAccount-prg-itm-active .mp-updAccount-prg-itm-pic,
+.mp-updAccount-prg-itm-active .mp-updAccount-prg-itm-star {
+  background: #de143a; }
+
+.mp-updAccount-prg-itm-active .mp-updAccount-prg-itm-title {
+  color: #de143a; }
+
+.mp-updAccount-prg-itm-pic {
+  position: relative;
+  background: #c6cacb;
+  width: 100%;
+  height: 1px;
+  margin-top: 27px; }
+
+.mp-updAccount-prg-itm-starMask {
+  position: absolute; }
+
+.mp-updAccount-prg-itm-star {
+  width: 23px;
+  height: 27px;
+  line-height: 27px;
+  text-align: center;
+  background: #c6cacb;
+  color: #fff;
+  font-size: 15px; }
+
+.mp-updAccount-prg-itm-starMask,
+.mp-updAccount-prg-itm-star {
+  position: absolute;
+  top: -13.5px;
+  left: 50%;
+  margin-left: -11.5px; }
+
+.mp-updAccount-prg-itm-title {
+  font-size: 14px; }
+
+.mp-updAccount-prg {
+  margin-top: 46px;
+  margin-bottom: 66px;
+  padding-left: 94px;
+  padding-right: 94px; }
+
+.mp-updAccount-prg:after {
+  content: '';
+  display: block;
+  clear: both; }
+
+.mp-updAccount-form-gp {
+  vertical-align: middle;
+  display: table;
+  margin-left: 168px;
+  margin-right: auto; }
+
+.mp-updAccount-form-name {
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+  margin-right: 12px;
+  font-size: 13px; }
+
+.mp-updAccount-form-val-ipt {
+  width: 365px;
+  height: 40px; }
+
+.layui-layer {
+  position: fixed;
+  _position: fixed; }
+
+.mp-updAccount-suc {
+  text-align: center; }
+
+.mp-updAccount-suc-isSuc {
+  color: #999;
+  font-size: 14px;
+  margin-top: 12px; }
+
+.mp-updAccount-suc-inf {
+  font-size: 13px;
+  margin-top: 25px;
+  margin-bottom: 30px; }
+
+.bm-layui-layer-setwin a {
+  width: auto;
+  height: auto;
+  font-size: 24px; }
+
+/*.layui-layer-ico16, .layui-layer-loading .layui-layer-loading2 {
+  width: 49px;
+  height: 49px;
+  background: url(../../app/img/frame-load.gif) no-repeat;
+}*/
+/*完善账户信息End*/
+/*左侧菜单*/
+.mu-main {
+  position: absolute;
+  width: 207px;
+  background: #fff; }
+
+.mu-top-ttl {
+  width: 100%;
+  height: 55px;
+  line-height: 55px;
+  font-size: 18px;
+  background: #e2202d;
+  color: #fff;
+  text-align: center; }
+
+.mu-itm-main {
+  width: 100%;
+  border: 1px solid #e5e5e5; }
+
+.mu-itm {
+  font-size: 14px;
+  font-weight: 600;
+  padding-top: 26px;
+  padding-left: 25px;
+  padding-bottom: 14px;
+  margin-bottom: 15px; }
+
+.mu-itm-ttl {
+  font-size: 14px;
+  margin-bottom: 13px;
+  line-height: 1; }
+
+.mu-itm li {
+  height: 34px;
+  line-height: 34px;
+  font-weight: 400;
+  color: #686868;
+  padding-left: 24px; }
+
+.mu-icon {
+  margin-right: 6px; }
+
+.mu-itm-line {
+  width: 159px;
+  height: 1px;
+  background: #e5e5e5;
+  margin: auto; }
+
+.mu-main .mu-itm-line:last-child {
+  display: none; }
+
+.mu-itm-ttl, .mu-itm li {
+  cursor: pointer; }
+
+/*左侧菜单End*/
+/*右侧主体*/
+.mp-r-main {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 227px;
+  border: 1px solid #e5e5e5;
+  background: #fff;
+  min-height: 100%; }
+
+.mp-cm-ttl {
+  height: 63px;
+  line-height: 63px;
+  border-bottom: 1px solid #e5e5e5;
+  font-size: 18px;
+  color: #333;
+  padding-left: 30px; }
+
+.mp-cm-cnt-pd {
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 10px;
+  padding-bottom: 40px; }
+
+.mp-cm-grid {
+  width: 100%; }
+
+.mp-cm-grid table {
+  width: 100%; }
+
+.mp-cm-grid tr {
+  border-top: 1px solid #d5d9e1;
+  border-bottom: 1px solid #d5d9e1; }
+
+.mp-cm-grid tbody tr {
+  height: 52px; }
+
+.mp-cm-grid th,
+.mp-cm-grid td {
+  text-align: left;
+  padding-left: 10px; }
+
+.mp-cm-grid th {
+  font-size: 14px;
+  color: #1b2129; }
+
+.mp-cm-grid td {
+  font-size: 12px;
+  color: #666; }
+
+.mp-cm-grid th {
+  height: 34px;
+  line-height: 34px;
+  background: #f6f8fa; }
+
+.mp-cm-grid tbody tr:nth-child(even) td {
+  background: #f9fafb; }
+
+/*右侧主体End*/
+/*页码栏*/
+.mp-pagination {
+  font-size: 14px;
+  color: #666;
+  text-align: right; }
+
+.mp-pagination > * {
+  margin-right: 8px; }
+
+.mp-pagination-num,
+.mp-pagination-btn {
+  display: inline-block;
+  height: 32px;
+  line-height: 32px;
+  background: #f6f6f6;
+  text-align: center; }
+
+.mp-pagination-pd {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.mp-pagination-num {
+  width: 32px; }
+
+.mp-pagination-btn {
+  width: 68px;
+  border: 1px solid #e5e5e5;
+  background: #f6f6f6;
+  color: #cfcfcf;
+  cursor: pointer; }
+
+.mp-pagination .active {
+  background: #e2202d;
+  color: #fff; }
+
+.mp-cm-grid .mp-cm-grid-opt {
+  color: #37b0f7; }
+
+/*页码栏End*/
+/*表单*/
+.mp-form-gp {
+  display: table; }
+
+.mp-form-gp:after {
+  content: '';
+  display: block;
+  clear: both; }
+
+.mp-form-name,
+.mp-form-val {
+  display: table-cell; }
+
+.mp-form-name {
+  text-align: right;
+  padding-right: 20px;
+  color: #666; }
+
+.mp-form-name-difHt {
+  vertical-align: top;
+  padding-top: 8px; }
+
+.mp-ta {
+  border: 1px solid #e5e5e5; }
+
+/*表单 End*/
+
+/*# sourceMappingURL=frame.css.map */
