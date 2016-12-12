@@ -26,15 +26,16 @@
 
 .icon-jia:before { content: "\e600"; }
 
+.icon-danxuanxzh:before { content: "\e609"; color: #37b0f7;}
+
 .icon-duihao:before { content: "\e624"; }
 
 .icon-wenhao:before { content: "\e66d"; }
 
-.icon-danxuanzzq:before { content: "\e6e8"; }
+.icon-fuxuanxzh:before { content: "\e75b"; color: #37b0f7;}
+
+.icon-danxuanxzq:before { content: "\e6e8"; }
 
 .icon-fuxuanxzq:before { content: "\e601"; }
 
-.icon-fuxuanxzh:before { content: "\e602"; }
-
-.icon-danxuanxzh:before { content: "\e606"; }
 

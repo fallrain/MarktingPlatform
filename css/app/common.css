@@ -94,12 +94,27 @@
   line-height: 38px; }
 
 .mp-ck-par {
+  position: relative;
   margin-right: 16px;
   cursor: pointer; }
 
+.mp-ck-par .iconfont {
+  color: #e5e5e5;
+  position: relative;
+  top: 2px; }
+
+.mp-ck-par .mp-ck-checkedicon {
+  position: absolute;
+  top: -10px;
+  left: 0; }
+
 .mp-ckgp-ck {
   vertical-align: middle;
-  margin-right: 6px; }
+  margin-right: 6px;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  opacity: 0; }
 
 /*多选框End*/
 /*单选框*/
@@ -108,12 +123,27 @@
   line-height: 38px; }
 
 .mp-rd-par {
+  position: relative;
   margin-right: 16px;
   cursor: pointer; }
 
 .mp-rdgp-rd {
   vertical-align: middle;
-  margin-right: 6px; }
+  margin-right: 6px;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  opacity: 0; }
+
+.mp-rd-par .iconfont {
+  color: #e5e5e5;
+  position: relative;
+  top: 2px; }
+
+.mp-rd-par .mp-ck-checkedicon {
+  position: absolute;
+  top: -10px;
+  left: 0; }
 
 /*单选框End*/
 
