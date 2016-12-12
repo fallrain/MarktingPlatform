@@ -18,6 +18,8 @@
 
 .icon-close:before { content: "\e69a"; }
 
+.icon-moreunfold:before { content: "\e6a6"; }
+
 .icon-user:before { content: "\e900"; }
 
 .icon-fangdajing:before { content: "\e635"; }

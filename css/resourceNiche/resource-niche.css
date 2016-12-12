@@ -175,7 +175,68 @@
 /*新增资源位End*/
 /*资源位浏览*/
 .mp-resnList-sch {
-  border: 1px solid #e5e5e5; }
+  border: 1px solid #e5e5e5;
+  border-bottom: none; }
+
+.mp-resnList-sch-mg {
+  margin: 14px;
+  margin-bottom: 0; }
+
+.mp-resnList-sch-ttl {
+  padding-left: 17px;
+  padding-right: 17px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  line-height: 38px; }
+
+.mp-resnList-sch-ttl:after {
+  content: '';
+  display: block;
+  clear: both; }
+
+.mp-resnList-sch-gird table {
+  width: 100%;
+  border-bottom: 1px solid #e5e5e5; }
+
+.mp-resnList-sch-gird thead tr {
+  background: #f6f8fa;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5; }
+
+.mp-resnList-sch-gird th {
+  height: 44px;
+  padding-left: 18px;
+  min-width: 120px;
+  text-align: left;
+  font-size: 14px; }
+
+.mp-resnList-sch-gird th:last-child {
+  width: 99%; }
+
+.mp-resnList-sch-gird tbody tr {
+  vertical-align: top; }
+
+.mp-resnList-sch-gird ul {
+  padding-left: 18px;
+  padding-top: 18px;
+  padding-bottom: 18px; }
+
+.mp-resnList-sch-gird li {
+  margin-bottom: 10px;
+  color: #666;
+  font-size: 12px; }
+
+.mp-resnList-sch-gird li:last-child {
+  margin-bottom: 0; }
+
+.mp-resnList-sch-cmore {
+  width: 114px;
+  height: 32px;
+  line-height: 32px;
+  border: 1px solid #e5e5e5;
+  border-top: none;
+  background: #fff; }
 
 /*资源位浏览*/
 
